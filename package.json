@@ -1,0 +1,28 @@
+{
+  "name": "saikabot",
+  "version": "1.0.0",
+  "description": "A telegram bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shadyueh/saika-bot.git"
+  },
+  "keywords": [
+    "telegram",
+    "bot"
+  ],
+  "author": "Held Grijo",
+  "license": "CC-BY-SA-4.0",
+  "bugs": {
+    "url": "https://github.com/shadyueh/saika-bot/issues"
+  },
+  "homepage": "https://github.com/shadyueh/saika-bot#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "telegraf": "^3.38.0"
+  }
+}
